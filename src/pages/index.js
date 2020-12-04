@@ -4,8 +4,8 @@ import { useStaticQuery, graphql, Link } from "gatsby"
 import Img from "gatsby-image"
 import Layout from "../components/layout"
 import Head from "../components/head"
-import blogStyles from "./blog.module.scss"
-//import blogStyles from "./index.module.scss"
+import blogStyles from "./index.module.scss"
+
 
 const IndexPage = () => {
   const data = useStaticQuery(
@@ -63,7 +63,7 @@ return (
                 {edge.node.body.childMarkdownRemark.excerpt}
               </p>
               <div className="button">
-                <Link to={`/blog/${edge.node.slug}/`}>Read More</Link>
+                <Link to={`/blog/${edge.node.slug}/`}>Soma zaidi</Link>
               </div>
                         </div>
                     )
