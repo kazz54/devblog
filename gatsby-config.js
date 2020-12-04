@@ -4,7 +4,7 @@ require("dotenv").config({
 })
 module.exports = {
     siteMetadata: {
-        title: 'Full-Stack Bootcamp',
+        title: 'makala ya dev',
         author: 'Devduara0'
     },
     plugins: [
