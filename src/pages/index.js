@@ -11,7 +11,7 @@ const IndexPage = () => {
   const data = useStaticQuery(
     graphql`
       query {
-        allContentfulBlog(sort: {fields: body___childMarkdownRemark___frontmatter___date}) {
+        allContentfulBlog(sort: {fields:  body___childMarkdownRemark___frontmatter___date}) {
       edges {
         node {
           id
